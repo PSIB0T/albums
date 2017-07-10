@@ -9,7 +9,8 @@ import Header from './src/components/header';
 // Some amount of JSX 
 const App = () => (
     //This is JSX which looks like html
-    <Header />
+    //Pass props to make components reusable
+    <Header headerText={'Albums'} />
 );
 
 
