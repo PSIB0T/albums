@@ -12,7 +12,7 @@ import AlbumList from './src/components/albumlist';
 const App = () => (
     //This is JSX which looks like html
     //Pass props to make components reusable
-    <View>
+    <View style={{ flex: 1 }}>
         <Header headerText={'Albums'} />
         <AlbumList />
     </View>
